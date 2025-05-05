@@ -92,7 +92,7 @@ const RoomList = () => {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>Simple Chat Rooms</h1>
+        <h1>Chat Rooms</h1>
         {username && (
           <div className="user-info">
             <span>Logged in as: {username}</span>
